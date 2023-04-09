@@ -26,6 +26,7 @@ async function fetchUse() {
   days.forEach((day, index) => {
     day.textContent = data[index].day;
   });
+
 }
 
 fetchUse();
