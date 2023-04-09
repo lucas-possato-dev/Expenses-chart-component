@@ -55,6 +55,10 @@ body {
   width: 60px;
 }
 
+.logo {
+  animation: rotation 1.5s forwards;
+}
+
 .logo:hover {
   animation: rotation 1.5s forwards;
 }
