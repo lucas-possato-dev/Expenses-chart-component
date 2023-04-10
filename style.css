@@ -135,8 +135,8 @@ body {
   position: absolute;
   background-color: hsl(25deg, 47%, 15%);
   border-radius: 4px;
-  padding: 5px 8px;
-  left: -0.6rem;
+  padding: 5px 5px;
+  left: -2px;
   top: -2rem;
   display: block;
 }
@@ -176,5 +176,8 @@ body {
 @media (min-width: 1000px) {
   .bar_stat {
     width: 3rem;
+  }
+  .bar_stat:hover:before {
+    left: -1px;
   }
 }
